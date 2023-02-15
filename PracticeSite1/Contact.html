@@ -18,7 +18,7 @@
     background-color: #3F00FF;
     background-image: url(wp2741101-3928050547.jpg);
     color: #A31623;
-    background-repeat: repeat-y;
+    background-repeat: repeat;
 }
         h1 {
 	color: #5E5088;
@@ -39,54 +39,53 @@
         <![endif]-->
 
 <div class="title">
-            <nav>
+            <nav class="wrapper" style="height: 217px; color: #5E5088;">
               <ul>
-                <li><a href="#" class="footer-container">Home (WIP)</a></li>
+                <li><a href="index.html" class="footer-container">Home (WIP)</a></li>
 				<li><a href="#" class="footer-container">Progress (WIP)</a></li>
 				<li><a href="#" class="footer-container">Github (WIP)</a></li>
-                <li class="footer-container"><a href="#" class="footer-container">Contact (WIP)</a></li>
+                <li><a href="Contact.html" class="footer-container">Contact (WIP)</a></li>
               </ul>
             </nav>
-            <header class="wrapper clearfix">
-                <h1 class="title">Contact Me</h1>
-  </header>
-  </div>
+            
+</div>
 
         <div class="main-container">
             <div class="main wrapper clearfix">
 
               <article>
+				  <header class="wrapper clearfix">
+                <h1 class="title">Contact Me</h1>
+  </header>
 <header></header>
 <footer></footer>
-
-<header> </header>
-              </article>
-              <label for="textfield">First Name:</label>
-              <input type="text" name="textfield" id="textfield">
-              <label for="textfield2">Last Name:</label>
-              <input type="text" name="textfield2" id="textfield2">
+<p>	<label for="textfield">First Name:</label>
+              <input name="textfield" type="text" required="required" id="textfield">
+              
+	<label for="textfield2"><br>
+	  Last Name:</label>
+              <input type="text" name="textfield2" id="textfield2"><br>
               <label for="textfield3">Email:</label>
-              <input type="text" name="textfield3" id="textfield3">
-              <aside>
-                  <h3>About</h3>
-                    <p>Amateur Webdev working mainly in frontend. Tech Support is my day job, while I learn and practice this on my own time. I'm going to switch to webdev one day (outside of minor work here and there in the present), when I feel I've learned enough to get a junior dev position. This page is to both track project progress and to use as a bookmark, to see how I've improved over time.</p>
-              </aside>
+              <input name="textfield3" type="text" required="required" id="textfield3">
+              
 
               <p>
                 <label for="textarea"><br>
                   Message:</label>
                 <textarea name="textarea" id="textarea"></textarea>
               </p>
-              <p>&nbsp;              </p>
-              <p>&nbsp;</p>
-              <p>&nbsp;</p>
-              <p>&nbsp;</p>
-              <p>&nbsp;</p>
-              <p>&nbsp;</p>
+            
               <p>
                 <input type="submit" name="submit" id="submit" value="Submit">
                 <input type="reset" name="reset" id="reset" value="Reset">
-              These buttons don't work, currently. Script for sending messages to my inbox is a WIP.</p>
+              <p>These buttons don't work, currently. Script for sending messages to my inbox is a WIP.</p></p>
+				  </p>
+              </article>
+			  <aside>
+                <h3>About</h3>
+                    <p>Amateur Webdev working mainly in frontend. Tech Support is my day job, while I learn and practice this on my own time. I'm going to switch to webdev one day (outside of minor work here and there in the present), when I feel I've learned enough to get a junior dev position. This page is to both track project progress and to use as a bookmark, to see how I've improved over time.</p>
+              </aside>
+              
             </div> <!-- #main -->
         </div> <!-- #main-container -->
 

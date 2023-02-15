@@ -185,11 +185,11 @@ nav a:hover {
    ==================== */
 
     nav a {
-        float: left;
-        width: 27%;
-        margin: 0 1.7%;
-        padding: 25px 2%;
-        margin-bottom: 0;
+    float: left;
+    width: 150px;
+    margin: 0 1.7%;
+    padding: 25px 2%;
+    margin-bottom: 0;
     }
 
     nav li:first-child a {
@@ -199,7 +199,7 @@ nav a:hover {
     nav li:last-child a {
     margin-right: 0;
     text-decoration: none;
-    background-color: #36236F;
+    background-color: #5E5088;
     overflow-x: visible;
     }
 
@@ -208,8 +208,10 @@ nav a:hover {
    ======================== */
 
     nav ul li {
-	display: inline;
-	background-color: #5E5088;
+    display: inline;
+    background-color: #5E5088;
+    position: relative;
+    color: #5E5088;
     }
 
     .oldie nav a {
